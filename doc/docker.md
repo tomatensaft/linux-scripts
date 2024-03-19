@@ -1,7 +1,8 @@
-# docker infos
+# docker commands
 
 
-### docker commands
+### general commands
+general docker commands
 
 create volume
 ```
@@ -50,23 +51,38 @@ view compose lose
 docker compose logs 
 ```
 
-view log of explici container
+view log of explicit container
 ```
 docker logs telegraf
 ```
 
-docker run
+docker run (create and start) with console
 ```
-docker run -it joind docker container
-docker run -d run detached standalone
+docker run -v $(pwd):/root -it influxdb2 /bin/bash
+docker run -it influxdb2 --entrypoint /usr/local/bin/bash bash
 ```
 
-enter docker container
+docker run (create and start) detached
+```
+docker run -d influxdb2
+```
+
+docker only start container
+```
+docker start influxdb2
+```
+
+docker onyl stop container
+```
+docker stop influxdb2
+```
+
+enter docker container / join container
 ```
 sudo docker exec -it influxdb2 /bin/bash
 ```
 
 execute a command
 ```
-docker run -d --name container-name "ls >> /var/log/test.log"
+docker run -d --name influxdb2 "ls >> /var/log/test.log"
 ```
