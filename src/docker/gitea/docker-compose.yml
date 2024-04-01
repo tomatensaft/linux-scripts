@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  server:
+    image: gitea/gitea:latest
+    container_name: gitea
+    env_file:
+      - ./.env
+    restart: unless-stopped
+    volumes:
+      - ${DOCKER_GITEA_VOLUME}/data:/data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - ${DOCKER_GITEA_DB_PORT}:3000
+      - ${DOCKER_GITEA_SSH_PORT}:22

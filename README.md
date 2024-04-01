@@ -3,9 +3,7 @@ linux script for industrial automation helpers
 
 ## resources
 * documenation [doc](doc/)
-* library / system tools [lib](lib/)
-* script templates [template](template/)
-* script repo for bsd [scripts](scripts/)
+* script repo for debian [src](src/)
 * copy repo to local disk [filecopy_local](scripts/filecopy_local.sh)
 
 ## tests
