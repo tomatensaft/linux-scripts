@@ -2,10 +2,12 @@
 linux scripts for industrial automation helpers
 
 ## contents
-* [installation](#installation)
-* [usage](#usage)
-* [tests](#tests)
-* [version](#version)
+- [linux-scripts :penguin:](#linux-scripts-penguin)
+  - [contents](#contents)
+  - [installation](#installation)
+  - [usage](#usage)
+  - [resources](#resources)
+  - [tests](#tests)
 
 ## installation
 * install `git` at your local system
@@ -18,7 +20,10 @@ linux scripts for industrial automation helpers
 
 ## resources
 * documenation [doc](doc/)
-* script repo mostly for debian [src](src/)
+* docker examples [docker](docker/)
+* network configuration / monitoring [network](net/)
+* python examples / debug examples [python](python/)
+* certificates / openssl creation [certification](cert/)
 
 ## tests
 * not testet completly

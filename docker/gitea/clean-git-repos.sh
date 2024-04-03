@@ -2,14 +2,14 @@
 
 #set -x
 
-# set absolute path of root app for global use
-SCRIPT_ROOT_PATH=$(pwd)
+# set absolute path of root app for global use - relative path from this point
+SCRIPT_ROOT_PATH="../"
 
 # include external libs from git submodule
-if [ -f  ./posix-lib-utils/standard_lib.sh ]; then
-    . ./posix-lib-utils/docker_lib.sh
+if [ -f  ${SCRIPT_ROOT_PATH}/posix-lib-utils/docker_lib.sh ]; then
+    . ${SCRIPT_ROOT_PATH}/posix-lib-utils/docker_lib.sh
 else
-    printf "$0: external libs not found - exit."
+    printf "$0: external libs not found - exit.\n"
     exit 1
 fi
 
