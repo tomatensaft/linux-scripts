@@ -15,5 +15,4 @@ docker examples
 * not testet completly
   
 ---
-## version
 *[v0.1.0]*

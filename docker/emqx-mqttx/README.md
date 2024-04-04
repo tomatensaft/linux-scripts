@@ -31,7 +31,7 @@ docker EMQX broker with MQTTX websocket client
   - `setup-emqx-mqttx.sh --state`
 
 ## resources
-* standard lib [lib](../../../posix-lib-utils/)
+* standard lib [lib](../../posix-lib-utils/)
 
 ## tests
 * not testet completly

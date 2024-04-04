@@ -3,7 +3,7 @@
 #set -x
 
 # set absolute path of root app for global use
-SCRIPT_ROOT_PATH="../"
+SCRIPT_ROOT_PATH="../../"
 
 # include external libs from git submodule
 if [ -f  ${SCRIPT_ROOT_PATH}/posix-lib-utils/docker_lib.sh ]; then

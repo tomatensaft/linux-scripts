@@ -23,7 +23,7 @@ linux scripts for industrial automation helpers
 * docker examples [docker](docker/)
 * network configuration / monitoring [network](net/)
 * python examples / debug examples [python](python/)
-* certificates / openssl creation [certification](cert/)
+* boilerplates for new scripts [boilerplates](boilerplates/)
 
 ## tests
 * not testet completly
