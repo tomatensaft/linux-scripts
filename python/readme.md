@@ -2,7 +2,6 @@
 python apps for testing different apps e.g. opcua, mqtt, ...
 
 ## contents
-- [python script for testing apps :snake:](#python-script-for-testing-apps-snake)
   - [contents](#contents)
   - [installation](#installation)
   - [usage](#usage)
